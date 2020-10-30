@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Usage
+# ./get-youtube-playlist
+#   KEY
+#   PLAYLIST
+#   PAGETOKEN
+#   MAXRESULTS
+
+KEY=$1
+PLAYLIST=$2
+PAGETOKEN=$3
+MAXRESULTS=$4
+
+wget -q \
+"https://www.googleapis.com/youtube/v3/playlistItems?\
+key=${KEY}&\
+part=snippet&\
+playlistId=${PLAYLIST}&\
+pageToken=${PAGETOKEN}&\
+maxResults=${MAXRESULTS}" \
+-O -
