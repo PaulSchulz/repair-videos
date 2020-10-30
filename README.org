@@ -1,0 +1,47 @@
+* Repair Videos
+Tools for managing contents of electronic repair videos
+
+** Introduction
+
+This repository was created in response to the request by Louis
+Rossmann (Louis Rossmann Group) for assistance with the organisation
+and collation of the information stored in the videos of his Youtube
+channel. This request is part of Louis's effort to make available
+resources for independant repair providers.
+
+The initial request was made in the following video:
+
+- https://www.youtube.com/watch?v=3kGqPjSDp14
+
+Help asked was asked with:
+
+- Update the trouble shooting guides for the various laptop models
+- Record video details to wiki, specifically
+  - Model
+  - Problem
+  - Fix
+- Transferring forum threads details to Wiki 
+
+The wiki is available here:
+
+- https://wiki2.rossmanngroup.com/index.php?title=Troubleshooting_Guides
+
+The wiki page concerning the list of videos is in the link below. The
+current list of videos is being kept in a Google Doc, and there is a
+Discord channel bein used to coordinate the effort.
+
+- https://wiki2.rossmanngroup.com/index.php?title=List_of_videos
+
+** Video Details
+The details being recorded for each video:
+- VideoURL
+- Name
+- Cause
+- Symptom
+- Issue
+- Issue2
+- Model Identifier
+- Model Number
+- Logic Board Part Number
+- Order info
+- Status
