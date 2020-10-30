@@ -4,8 +4,8 @@ videos:
     VideoURL: https://www.youtube.com/watch?v=r2HyzGwH7Z0
     Name: A1502 Macbook Pro logic board repair - 820-4924 120 mA usage, not powering on
     Length: 23h08m
-    Cause: 
     Symptom: Not Powering on
+    Cause: Short to ground via keybaord backlight connector
     Model Identifier: Macbook Pro
     Model Number: A1502
     Logic Board Part Number: 820-4924
@@ -20,7 +20,7 @@ videos:
       - Suspect that PP5V_S0 was shorted to ground through the LED driver.
       - Require donor board with suitable connector.
     Documentation Status: Nothing yet
-    Link to Wikipage:
+    Link to Wikipage: none
     Notes: none
     Comments: none
 

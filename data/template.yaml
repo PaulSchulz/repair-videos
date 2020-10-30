@@ -1,0 +1,25 @@
+---
+playlists:
+  - youtube-playlist: PLAYLISTID
+
+videos:
+  - VideoID: 
+    VideoURL: 
+    Name: 
+    Length:
+    Cause: 
+    Symptom:
+    Model Identifier: 
+    Model Number: 
+    Logic Board Part Number:
+    Issues:
+      - 
+    Repair:
+      - 
+    Other info:
+      - 
+    Documentation Status:
+    Link to Wikipage:
+    Notes:
+    Comments:
+
