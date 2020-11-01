@@ -1,0 +1,32 @@
+---
+video:
+  - VideoID: lOwnVnVIc8w
+    ID: 36
+    VideoURL:  https://www.youtube.com/watch?v=lOwnVnVIc8w
+    Name: A1502 strange failure 0 000A drawn no power
+    Length: 21m25s
+    Date: 16 Jul 2020
+    Symptom: No power
+    Result: Fixed
+    Model Identifier: Macbook Pro
+    Model Number: A1502
+    Logic Board Part Number:
+    Issues:
+      - Draws no power, 0mA drawn on charger
+    Diagnosis:
+      - Corrosion present
+      - Visual inspection shows corrosion around power controller chip.
+      - Check fuse
+      - Corrosion on SMC chip
+    Repair:
+      - Remove chip and corroded resistors, capacitors
+      - Clean pads
+      - Reflow SMC chip
+    Conclusion: 21:24
+    Other info:
+      - Because of 0mA power draw, expect multiple issues.
+    Documentation Status: nil
+    Link to Wikipage: nil
+    Notes: nil
+    Comments: nil
+

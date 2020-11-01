@@ -1,0 +1,24 @@
+---
+video:
+  - VideoID: 6kdxrfmdWzM
+    VideoURL: https://www.youtube.com/watch?v=6kdxrfmdWzM
+    Name: FK LIQUID METAL!
+    Length: 9m33s
+    Symptom: Boot looping
+    Result: Not fixed
+    Model Identifier: nil
+    Model Number: nil
+    Logic Board Part Number: nil
+    Issues:
+      - Not booting
+      - Excess liquid metal thermal paste used on GPU. Flowed onto
+        motherboard and too difficult to remove.      
+    Repair:
+      - Not done
+    Other info:
+      - Too difficult to remove and repair.
+    Documentation Status: nil
+    Link to Wikipage: nil
+    Notes: nil
+    Comments: nil
+

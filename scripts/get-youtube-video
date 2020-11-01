@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Usage
+# ./get-youtube-video key
+
+KEY=$1
+
+../bin/youtube-dl -o "../videos/%(id)s-%(title)-$(duration)s.$(ext)s" $KEY

@@ -1,0 +1,42 @@
+---
+video:
+  - VideoID: 8s7HBtQYcaM
+    ID: 36
+    VideoURL: https://www.youtube.com/watch?v=8s7HBtQYcaM
+    Name: Macbook Pro no brain CPU vcore issue 820-3476
+    Length: 20m57s
+    Date: 12 Jun 2020
+    Symptom: Not powering on
+    Result: Fixed
+    Model Identifier: Macbook Pro
+    Model Number: A1502
+    Logic Board Part Number: 820-3476
+    Issues:
+      - Liquid damage
+      - Not powering on
+      - Drawing 126 mA
+      - Corrosion on capacitor
+      - Pad damage during repair
+      - Wiggle power connector gives 120mA, but not powering on
+      - Debris under chip
+    Diagnosis:
+      - Unplug everything from the motherboard
+      - PP3V4_G3HT has 1.5 V on one side
+      - PP3V4_G3HT changed to 12V (normal) and current draw dropped to 32mA
+      - Go though power rail voltages
+      - Visual inspection shows corrosion on capacitor
+    Repair:
+      - Remove capacitor on PP5V_SO
+      - Scrape and clean pad. Pad missing.
+      - Eugene fix to capacitor (reorientate to vertical)
+      - Replace capacitor
+      - Add jumper from CPUVCORE chip
+      - Replace chip
+    Other info:
+      - Corrosion was on PP5V_SO which controls a phase of PPBUS_G3H
+      - Only half of power available to CPU
+    Documentation Status: nil
+    Link to Wikipage: nil
+    Notes: nil
+    Comments: nil
+

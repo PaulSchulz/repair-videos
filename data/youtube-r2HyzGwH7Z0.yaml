@@ -1,0 +1,64 @@
+---
+video:
+  - VideoID: r2HyzGwH7Z0
+    ID: 74
+    VideoURL: https://www.youtube.com/watch?v=r2HyzGwH7Z0
+    Name: A1502 Macbook Pro logic board repair - 820-4924 120 mA usage, not powering on
+    Length: 23h08m
+    Date: nil
+    Symptom: Not Powering on
+    Model Identifier: Macbook Pro
+    Model Number: A1502
+    Logic Board Part Number: 820-4924
+    Issues:
+      - Not Powering on
+    Cause:
+      - Short to ground via keyboard backlight connector
+      - Corrosion on keyboard backlight connector
+      - Spillage
+    Repair:
+      - Replace keyboard backlight connector
+    Other info:
+      - Suspect that PP5V_S0 was shorted to ground through the LED driver.
+      - Require donor board with suitable connector.
+    Documentation Status: Updated
+    Link to Wikipage: https://wiki2.rossmanngroup.com/index.php?title=A1502_2015-2016_13%E2%80%9D_Macbook_Pro_Retina
+    Notes: none
+    Comments: none
+
+  - VideoID: afHSFPoq0jU
+    ID: 76
+    VideoURL: https://www.youtube.com/watch?v=afHSFPoq0jU
+    Name: A dead A1502 Macbook Pro 820-4924 taking 200 mA
+    Length: 14m14s
+    Date: nil
+    Symptom:
+	- Not powering on
+    Model Identifier: Macbook Pro
+    Model Number: A1502
+    Logic Board Part Number: 820-4924
+    Issues:
+      - Not powering on
+      - No light on the charger
+      - Drawing 136 mA 
+    Diagnosis:
+      - Unplug everything from the motherboard
+      - Is PP3V4_G3HOT present? This is is required for the charger light to turn on.
+      - Visual inspection
+      - Chip with solder blob on top
+      - Damaged chip isl625, responsible for producing 12.56V 
+    Repair:
+      - Remove broken chip
+      - Trace pushed down that was lifting
+      - Replace broken chip
+    Test:
+      - Apply power
+      - Green light on
+      - Orange light on
+      - Fan spin
+    Other info:
+      - nil
+    Documentation Status: nil
+    Link to Wikipage: https://wiki2.rossmanngroup.com/index.php?title=A1502_2015-2016_13%E2%80%9D_Macbook_Pro_Retina
+    Notes: nil
+    Comments: nil

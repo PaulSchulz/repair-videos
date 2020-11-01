@@ -1,0 +1,38 @@
+---
+video:
+  - VideoID: O0_0YtdwgF0
+    ID: 51
+    VideoURL: https://www.youtube.com/watch?v=O0_0YtdwgF0
+    Name: Will this badly water damaged A1502 Macbook Pro be fixable?	Liquid damage
+    Length: 39m48s
+    Date: 31 Sep 2020
+    Symptom: Not powering on
+    Model Identifier: Macbook Pro
+    Model Number: A1502 
+    Logic Board Part Number: nil
+    Issues:
+      - Liquid damage
+      - Nothing on screen
+    Diagnosis:
+      - Drawing 800mA, powering on
+      - No picture on screen
+      - 0V on backlight
+      - Backlight is not shorted to ground
+      - No short on backlight output
+      - Discolored trace to pin 1. Suspect discontinuity on board track.
+    Repair:
+      - Clean screen connector
+      - Clean backlight connector
+      - Replace corroded capacitors
+      - Replace backlight LED driver chip
+      - Replace corroded chips
+      - Run a bypass with magnet wire to screen connector
+      - Remove JTAG connector
+    Conculusion: nil
+    Other info:
+      - nil
+    Documentation Status: nil
+    Link to Wikipage: nil
+    Notes: nil
+    Comments: nil
+
